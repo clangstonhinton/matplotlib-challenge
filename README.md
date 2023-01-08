@@ -16,12 +16,12 @@ In its latest study, 249 mice who were identified with SCC tumors received treat
 ## Approach
 
  - Read in two csv files and merged into one dataframe
- - Called pandas functions to perform various calculations uing groupby including: mean, median, variance, standard deviation, and SEM of tumor volume by drug regimen.
+ - Called pandas functions to perform various calculations using groupby including: mean, median, variance, standard deviation, and SEM of tumor volume by drug regimen.
  - Generated bar charts showing the total number of measurements for all mice tested by drug regimen using Pandas method and pyplot method.
  - Generated pie charts showing the distribution of female versus male mice in the study using Pandas method and pyplot method.
- - Calculated the final tumor volume of each mouse across the four top drugs of interest.
- - Calculated the quartiles, inter-quartile range (IQR) and determined potential outliers using upper and lower bounds method.
- - Generated a box plot showing the distribution of the final tumor size for each mouse tested across the four top drugs of interest.
+ - Calculated the final tumor volume of each mouse across the four top drugs of interest: Capomulin, Ramicane, Infubinol, and Ceftamin.
+ - Calculated the quartiles, inter-quartile range (IQR) and determined potential outliers using upper and lower bounds method of the top four drugs.
+ - Generated a box plot showing the distribution of the final tumor size for each mouse tested across the top four drugs.
  - Created a line plot and a scatter plot for a select mouse treated with Capomulin depicting the tumor volume over time for the mouse.
  - For the Capomulin treatment the following were calculated:
       - The Pearson correlation coefficient between mouse weight and average tumor volume
